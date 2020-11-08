@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(255, 234, 139);
+}
+
+header {
+  background-color: rgb(250, 204, 0);
+}
+.header-title {
+  text-align: center;
+}
+.header-title > h1 {
+  color: white;
+  font-weight: bold;
+}
+.header-left, .header-right {
+  vertical-align: middle;
+  text-align: center;
+}
+.header-right label {
+  margin: 0 5px 0 0;
+}
+.left-nav, .right-content {
+  background-color: rgb(255, 226, 96);
+  border-style: solid;
+  border-width: 1px;
+}
+header, .left-nav, .right-content {
+  border-color: rgba(216, 191, 80, 0.5);
+}
+.main-content {
+  padding: 3%;
+}
+.form-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 2px 4px 2px;
+}
+.form-flex > input {
+  margin-right: 4px;
+}
+.form-flex > button {
+  background-color: rgb(107, 107, 250);
+  color: white;
+}
+.table-responsive {
+  background-color: rgb(223, 233, 255);
+}
+thead {
+  background-color: rgb(163, 163, 255);
+}
