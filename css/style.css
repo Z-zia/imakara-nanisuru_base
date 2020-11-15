@@ -52,6 +52,12 @@ header, .left-nav, .right-content {
 .table-responsive {
   background-color: rgb(223, 233, 255);
 }
+.container-fluid {  
+  height: 100vh;
+}
+.contents-row {
+  height: 100%;
+}
 
 /* グラフ部 */
 .chart-select-button-wrapper {
@@ -188,10 +194,4 @@ header, .left-nav, .right-content {
   margin: 0 auto;
   padding: 5px;
   cursor: pointer;
-}
-.container-fluid {  
-  height: 100vh;
-}
-.contents-row {
-  height: 100%;
 }
